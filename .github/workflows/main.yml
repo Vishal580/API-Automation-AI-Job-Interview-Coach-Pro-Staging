@@ -85,11 +85,11 @@ jobs:
         with:
           server_address: smtp.gmail.com
           server_port: 587
-          username: vishalkhetriba@gmail.com
+          username: vishal@frugaltestingin.com
           password: ${{ secrets.EMAIL_PASSWORD }}  # Use GitHub secret for security
           subject: '⚠️ Test Failure Alert of AI Job Interview Coach Pro [Staging]: Immediate Attention Required'
           body: |
             The API tests encountered failures. You can review the test report by visiting the following URL:
             ${{ env.DEPLOYMENT_URL }}
           to: vishal@frugaltestingin.com
-          from: vishalkhetriba@gmail.com
+          from: vishal@frugaltestingin.com
